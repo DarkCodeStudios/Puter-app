@@ -1,6 +1,7 @@
 # Puter-app
 **We are designing a Puter desktop application 🌐🚀**
 
+**App created by https://github.com/electron/electron-quick-start.git**
 # Features
 1)Fastboot
 
@@ -84,6 +85,7 @@ npm start
 ```
 # Doc
 work in progress...
+# Todo
 
 # License 
 ```
