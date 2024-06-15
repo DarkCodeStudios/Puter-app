@@ -11,7 +11,43 @@
 4)Self-Host
 
 # App Script
+**Create window**
+```javascript
+function createWindow () {
+  // Crea la finestra del browser
+  const win = new BrowserWindow({
+    width: 800,
+    height: 800,
+    webPreferences: {
+      nodeIntegration: false // Disabilita l'integrazione di Node.js nella pagina web
+    }
+  });
+```
+**Open http://puter.localhost:4100/**
+```javascript
+  win.loadURL('http://puter.localhost:4100/');
+```
+**When electron is ready it creates the window**
+```javascript
+app.whenReady().then(createWindow);
+```
+**Kill app when windows are closed (except on macOS)**
+```javascript
+app.on('window-all-closed', () => {
+  if (process.platform !== 'darwin') {
+    app.quit();
+  }
+});
+```
+**On macOS, searches for the app window when clicked and the app is in the background**
+```Javascript
+app.on('activate', () => {
+  if (BrowserWindow.getAllWindows().length === 0) {
+    createWindow();
+  }
+});
 
+```
 # How to run
 
 **Run puter**
