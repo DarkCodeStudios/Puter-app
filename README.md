@@ -46,7 +46,24 @@ app.on('activate', () => {
     createWindow();
   }
 });
-
+```
+**Package.json**
+```json
+{
+  "name": "electron-app",
+  "version": "1.0.0",
+  "description": "A basic Electron app",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^15.0.0"
+  }
+}
 ```
 # How to run
 
