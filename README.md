@@ -3,11 +3,11 @@
 
 **App created by https://github.com/electron/electron-quick-start.git**
 # Features
-1)Windows/linux
+1)Desktop app
 
-2)more safety 
+2)Self-Host
 
-3)Self-Host
+3)Linux/Windows/macOS
 
 # Explaining the functions
 **Create window (800 x 800)**
@@ -23,6 +23,9 @@ function createWindow () {
   });
 ```
 **Open http://puter.localhost:4100/**
+
+<h6>You can also change the domain to https://puter.com/ instead of http://puter.localhost:4100/</h6>
+
 ```javascript
   win.loadURL('http://puter.localhost:4100/');
 ```
@@ -66,7 +69,7 @@ app.on('activate', () => {
 ```
 # How to run
 
-**Run puter**
+**Run puter self-host**
 ```bash
 git clone https://www.github.con/DarkCodeStudios/Puter-app
 cd Puter-app
@@ -85,7 +88,6 @@ npm start
 - [X] Windows
 - [X] Linux
 - [x] macOS
-- [X] security
 - [ ] Browser
 - [ ] More app
 
