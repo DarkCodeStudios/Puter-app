@@ -1,18 +1,16 @@
-# Puter-app
+# Puter desktop app
 **We are designing a Puter desktop application 🌐🚀**
 
 **App created by https://github.com/electron/electron-quick-start.git**
 # Features
-1)Fastboot
+1)Windows/linux
 
-2)Windows/linux
+2)more safety 
 
-3)more safety (2fa)
+3)Self-Host
 
-4)Self-Host
-
-# App Script
-**Create window**
+# Explaining the functions
+**Create window (800 x 800)**
 ```javascript
 function createWindow () {
   // Crea la finestra del browser
@@ -83,9 +81,13 @@ cd app
 npm install
 npm start
 ```
-# Doc
-work in progress...
 # Todo
+- [X] Windows
+- [X] Linux
+- [x] macOS
+- [X] security
+- [ ] Browser
+- [ ] More app
 
 # License 
 ```
@@ -111,3 +113,4 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 ```
+<p align="center">DarkCodeStudios</p>
