@@ -71,8 +71,8 @@ app.on('activate', () => {
 
 **Run puter self-host**
 ```bash
-git clone https://www.github.con/DarkCodeStudios/Puter-app
-cd Puter-app
+git clone https://www.github.con/HeyPuter/puter
+cd puter
 npm install
 npm start
 ```
